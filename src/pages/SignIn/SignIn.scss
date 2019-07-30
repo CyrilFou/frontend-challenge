@@ -1,11 +1,28 @@
 .signin-container {
-  margin-left: 30%;
-  margin-right: 30%;
   margin-top: 10%;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
+  background-color: white;
+  margin-left: 20% ;
+  margin-right: 20%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
-
+.signin-btn{
+  font-weight: bold;
+  color: white;
+  background-color: #4D96CC;
+  -moz-border-radius:17px;
+  -webkit-border-radius:17px;
+  border-radius:50px;
+  border:1px #4D96CC;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:15px;
+  padding:3% 10%;
+}
 .form-control {
   box-shadow: 0px 12px 6px #DBDBDB;
   margin-bottom: 35px;
@@ -17,7 +34,11 @@
 
 .signup-link{
   float: left;
+  color: #40BBF2;
+  font-weight: bold;
 }
 .forgot-password-link{
   float: right;
+  color: #40BBF2;
+  font-weight: bold;
 }

@@ -13,12 +13,12 @@ class ForgotPassword extends Component {
               <input type="email" className="form-control" id="email" placeholder="Email"></input>
             </div>
             <div >
-              <button type="submit" name="signIn" className=" btn btn-info fogotpwd btn">Forgot Password</button>
+              <button type="submit" name="signIn" className="forgot-btn">Forgot Password</button>
             </div>
           </form>
         </div>
         <div className="signup-options-container">
-          <NavLink to="/signIn" className="signup-link">Sign In</NavLink>
+          <NavLink to="/signIn" className="signup-link">Login</NavLink>
           <NavLink to="/signUp" className="forgot-password-link">Sign Up</NavLink>
 
         </div>

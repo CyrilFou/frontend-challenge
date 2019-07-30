@@ -10,7 +10,7 @@ class SignUp extends Component {
                 <div >
                     <form>
                         <div className="form-group">
-                            <input type="text" className="form-control" id="userName" placeholder="Uername"></input>
+                            <input type="text" className="form-control" id="userName" placeholder="Username"></input>
                         </div>
                         <div className="form-group">
                             <input type="password" class="form-control" id="password" placeholder="Password"></input>
@@ -22,12 +22,12 @@ class SignUp extends Component {
                             <input type="text" class="form-control" id="referralCode" placeholder="Referral code"></input>
                         </div>
                         <div >
-                            <button type="submit" name="signIn" class=" btn btn-info signup-btn">Sign Up</button>
+                            <button type="submit" name="signIn" class="signup-btn">Sign Up</button>
                         </div>
                     </form>
                 </div>
                 <div class="signup-options-container">
-                    <NavLink to="/signIn" className="signup-link" >Sign In</NavLink>
+                    <NavLink to="/signIn" className="signup-link" >Login</NavLink>
                     <NavLink to="/forgotpassword" className="forgot-password-link">Forgot</NavLink>
 
                 </div>

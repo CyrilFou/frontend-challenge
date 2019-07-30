@@ -19,7 +19,7 @@ class SignIn extends Component {
                     <input type="password" className="form-control" id="password" placeholder="Password"></input>
                 </div>
                 <div>
-                    <button type="submit" name="signIn" className="btn btn-info signin-btn">Login</button>
+                    <button type="submit" name="signIn" className="signin-btn">Login</button>
                 </div>
             </form>
         </div>
